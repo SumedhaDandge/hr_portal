@@ -8,6 +8,7 @@ import EmployeesTable from "./Components/EmployeesTable.jsx";
 import AddCandidate from "./Components/Candidate/AddCandidate.jsx";
 import ClientList from "./Components/ClientsComponent/ClientList.jsx";
 import ClientView from "./Components/ClientsComponent/ClientView.jsx";
+import Jobs from './Components/Jobs/Jobs.jsx';
 import "./App.css";
 
 function App() {
@@ -23,7 +24,7 @@ function App() {
             <Route path="/employees" element={<EmployeesTable />} />
             <Route path="/candidates" element={<AddCandidate />} />
             <Route path="/clients" element={<ClientList />} />
-            {/* <Route path="/client-view/:id" element={<ClientView />} /> */}
+            <Route path="/jobs" element={<Jobs />} />
           </Routes>
         </div>
       </div>
