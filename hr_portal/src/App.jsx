@@ -5,9 +5,9 @@ import Navbar from "./Components/Navbar/Navbar";
 import Dashboard from "./Components/Dashboard/Dashboard";
 import Login from "./Components/Login.jsx";
 import EmployeesTable from "./Components/EmployeesTable.jsx";
-import AddCandidate from "./Components/AddCandidate.jsx";
-import ClientList from "./Components/ClientList.jsx";
-import ClientView from "./Components/ClientView.jsx";
+import AddCandidate from "./Components/Candidate/AddCandidate.jsx";
+import ClientList from "./Components/ClientsComponent/ClientList.jsx";
+import ClientView from "./Components/ClientsComponent/ClientView.jsx";
 import "./App.css";
 
 function App() {

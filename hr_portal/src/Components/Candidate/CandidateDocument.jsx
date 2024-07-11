@@ -1,4 +1,4 @@
-import "../styles/candidatePersonal.css";
+import "./candidatePersonal.css";
 import { FiUpload } from "react-icons/fi";
 
 const CandidateDocument = () => {
