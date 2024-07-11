@@ -28,28 +28,35 @@
     /* height: 400px; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     row-gap: 30px;
     padding: 0 30px;
 }
 
 .active {
-    color: red !important;
+    background-color: #EAE5FE;
 }
 .active a{
-    color: red !important;
+    color: #7152F3 !important;
 }
 
 
 .link{
+    width: 100%;
     display: flex !important;
     gap: 10px;
+    padding: 10px ;
+    padding-left: 20px;
+    border-radius: 10px;
+
+
 }
 
 .link a{
     font-size: 16px;
     font-weight: 500;
     color: rgba(0, 0, 0, 0.707);
+    text-decoration: none;
 }
 
 
