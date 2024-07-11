@@ -13,13 +13,18 @@
     position: sticky;
     top: 0;
     z-index: 1;
-    background-color: var(--lightPurple);    
+    background-color: var(--lightPurple) !important;    
     text-align: center;
+}
+
+.emp-table-data{
+    background-color: var(--white) !important;
 }
 
 .emp-table-head, .emp-table-data {
     padding: 10px;
-    /* text-align: left; */
+    text-align: center;
+    border: none;
 }
 
 .emp-table-row {
