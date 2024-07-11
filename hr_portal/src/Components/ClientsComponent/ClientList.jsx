@@ -1,7 +1,7 @@
-import showIcon from "../assets/view.svg";
-import editIcon from "../assets/edit.svg";
-import ContentHeader from "./contentHeader.jsx";
-import '../styles/clientList.css';
+import showIcon from "../../assets/view.svg";
+import editIcon from "../../assets/edit.svg";
+import ContentHeader from "../contentHeader.jsx";
+import './clientList.css';
 import { useState } from "react";
 
 

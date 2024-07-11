@@ -1,4 +1,4 @@
-import '../styles/addClient.css';
+import './addClient.css';
 
 
 const AddnewClient = ()=>{

@@ -1,4 +1,4 @@
-import "../styles/candidatePersonal.css";
+import "./candidatePersonal.css";
 
 const CandidateProfessionalForm = () => {
   return (

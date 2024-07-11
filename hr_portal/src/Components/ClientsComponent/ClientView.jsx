@@ -1,10 +1,10 @@
-import "../styles/clientView.css";
-import clientProfile from "../assets/client-profile-purple.png";
-import editIcon from "../assets/edit-white.svg";
-import bulbIcon from "../assets/idea-bulb-purple.png";
-import purpleEdit from "../assets/edit-purple.svg";
-import purpleBriefcase from "../assets/briefcase-purple.png";
-import showIcon from "../assets/view-purple.svg";
+import "./clientView.css";
+import clientProfile from "../../assets/client-profile-purple.png";
+import editIcon from "../../assets/edit-white.svg";
+import bulbIcon from "../../assets/idea-bulb-purple.png";
+import purpleEdit from "../../assets/edit-purple.svg";
+import purpleBriefcase from "../../assets/briefcase-purple.png";
+import showIcon from "../../assets/view-purple.svg";
 
 
 const ClientView = () => {
