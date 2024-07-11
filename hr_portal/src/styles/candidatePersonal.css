@@ -1,0 +1,208 @@
+.css-13xurca {
+    height: 70vh;
+    overflow-y: auto;
+}
+
+.candidate-form-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.candidate-form-group {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.candidate-form-group .candidate-form-field {
+    flex: 0 0 48%;
+    margin-bottom: 15px;
+}
+
+.candidate-form-group .candidate-form-field input,
+.candidate-form-group .candidate-form-field select {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    height: 56px;
+    top: 518px;
+    left: 371px;
+    padding: 16px 20px 16px 16px;
+    gap: 10px;
+    border: 1px 0px 0px 0px;
+}
+
+.candidate-form-group .candidate-form-field label {
+    margin-bottom: 5px;
+    display: block;
+}
+
+.candidate-form-actions {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 20px;
+}
+
+.candidate-form-actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.candidate-form-actions .cancel-btn {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    width: 91px;
+    height: 50px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.candidate-form-actions .next-btn {
+    background-color: var(--purple);
+    color: #fff;
+    margin-left: 10px;
+    width: 91px;
+    height: 50px;
+    padding: 20px;
+    gap: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.defaultSelect {
+    color: #9CA3AF;
+}
+
+.custom-select {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    /* Adjust as needed */
+}
+
+/* Style the select element */
+.custom-select select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    appearance: none;
+    /* Remove default arrow icon */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: white;
+    color: grey;
+    /* Default text color */
+}
+
+/* Add a custom arrow using a pseudo-element */
+.custom-select::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    width: 0;
+    height: 0;
+    pointer-events: none;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid red;
+    /* Custom arrow color */
+    transform: translateY(-50%);
+}
+
+/* Change the text color when a valid option is selected */
+.custom-select select:not([value=""]) {
+    color: black;
+}
+
+.addFile-box {
+    /* border: 1px dotted var(--purple); */
+    border-radius: 15px;
+    height: 176px;
+    width: 510px;
+}
+
+.upload-heading {
+    margin: 5px 3px 0px 3px;
+    padding: 10px 5px 0px 5px;
+    font-size: 16px;
+}
+
+
+
+.chooseFile-box {
+    height: 80%;
+    width: 100%;
+    border: 2px dotted var(--purple);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    padding: 10px 5px;
+}
+
+.choosefile-btn {
+    background-color: var(--purple);
+    color: var(--white);
+}
+
+.addFile-box p {
+    font-size: 12px;
+    color: grey;
+    font-weight: 300;
+}
+
+
+.strongText {
+    font-weight: 300;
+}
+
+.strongText i {
+    color: var(--purple);
+}
+
+/* SCROLL BAR  */
+
+.css-13xurca::-webkit-scrollbar {
+    width: 12px;
+    /* Width of the scrollbar */
+}
+
+.css-13xurca::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    /* Track color */
+}
+
+.css-13xurca::-webkit-scrollbar-thumb {
+    background: #888;
+    /* Thumb color */
+    border-radius: 6px;
+    /* Rounded corners */
+}
+
+.css-13xurca::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    /* Thumb color on hover */
+}
+
+/* Style the scrollbar for Firefox */
+.css-13xurca {
+    scrollbar-width: thin;
+    /* Thin scrollbar */
+    scrollbar-color: #888 #f1f1f1;
+    /* Thumb and track color */
+}

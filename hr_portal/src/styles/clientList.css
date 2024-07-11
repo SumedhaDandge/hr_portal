@@ -1,0 +1,95 @@
+.purpleBtn{
+    background: var(--purple);
+    border-radius: 7px;
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    flex-wrap: nowrap;
+    height: 31px;
+}
+
+.twoBtnSpan{
+    display: flex;
+    flex-direction: row;
+    column-gap: 10px;
+}
+
+.empTable-container {
+    max-width: 100%;
+    overflow-x: auto;
+    margin: 20px;
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
+.emp-table-head{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--lightPurple);    
+    text-align: center;
+}
+
+.emp-table-head, .emp-table-data {
+    padding: 10px;   
+}
+
+.emp-table-data{
+    border: 1px solid var(--grey);
+}
+
+.emp-table-row {
+    border-bottom: 1px solid var(--white);
+    font-size: 16px;
+}
+
+.emp-table-row:hover {
+    background-color: var(--white);
+}
+
+.emp-table-data span{
+    margin: 8px;
+}
+
+.emp-status span{
+    height: 100%;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.emp-action{
+    display: flex;
+}
+
+.emp-name{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.filter-options{
+    position: absolute;
+    background: var(--white);
+    right: 81px;
+    z-index: 10;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border-radius: 15px;
+    height: auto;
+    width: 200px;
+    padding: 10px;
+}
+
+.filteredOptionLi{
+    padding: 10px;    
+}
