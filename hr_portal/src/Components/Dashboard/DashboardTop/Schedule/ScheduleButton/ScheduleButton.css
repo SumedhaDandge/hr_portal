@@ -1,0 +1,99 @@
+.schedule-dropdown-container {
+    margin-bottom: 20px;
+    /* height: 400px; */
+  }
+  
+  .date-range-select {
+    width: 100%; 
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+
+
+
+  
+/* SearchButton */
+.schedule-button-container {
+  width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    gap: 8px;
+    background-color: #7152F3;
+    padding:8px 12px  !important;
+    border-radius: 11px;  
+  }
+  
+  .schedule-text {
+    font-family: "Open Sans", sans-serif;
+    color: #F3F2F3;   
+  }
+  
+  .icon-container {
+    background-color: #896FF4DB; 
+    padding: 5px;
+    border-radius: 6px;
+  }
+  
+  
+  .schedule-icon {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+
+  /* task */
+  .task{
+    width: 100%;
+    /* background-color: black; */
+    /* height: 400px; */
+    display: flex;
+   align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+.task_date{
+  font-family: "Open Sans", sans-serif;
+font-size: 16px;
+font-weight: 500;
+text-align: center;
+
+}
+  .task_info{
+    display: flex;
+    /* justify-content: space-between; */
+    column-gap: 20px;
+    margin-bottom: 10px;
+  }
+
+  .task_name{
+    border-left: 1px solid #000000;
+    padding-left: 15px;
+
+  }
+
+  .task_name h1{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #373639;
+  }
+
+  .task_name p{
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #373639;
+  }
+
+  .task_time{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    color: #373639;
+  }

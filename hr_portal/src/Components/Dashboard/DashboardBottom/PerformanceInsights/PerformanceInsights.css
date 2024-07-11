@@ -1,0 +1,63 @@
+
+/* PerformanceInsightsButton CSS */
+/* .performance_insight_btn{
+    background-color: #7152F3;
+}
+
+
+.performance_insight_bars{
+    width: 100%;
+}
+
+
+.performance_insight{
+    width: 100%;
+} */
+
+
+
+/* PerformanceInsights.css */
+
+.performance_insight_btn {
+    background-color: #7152F3;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .performance_insight_btn h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+  }
+  
+  .performance_insight_btn p {
+    font-size: 0.8rem;
+    color: white;
+    font-weight: normal;
+  }
+  
+  .performance_insight_bars {
+    width: 100%;
+    background-color: #FFFFFF;
+    /* box-shadow: 0px 4px 4px 0px #E2DCFD; */
+    padding: 20px;
+  }
+  
+  .performance_insight_bars h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .x-charts-bar-series rect[data-index="0"] {
+    fill: red; 
+  }
+  
+  .x-charts-bar-series rect[data-index="1"] {
+    fill: blue; 
+  }
+  

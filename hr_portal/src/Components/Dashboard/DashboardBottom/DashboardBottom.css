@@ -1,0 +1,95 @@
+
+.dashboard_bottom{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    column-gap:1% !important;
+    height: auto;
+    /* background-color: red; */
+    padding: 10px;
+}
+
+
+
+.performance_insight{
+    width: 74% !important;
+    margin-left: 4px;
+}
+
+
+.activity_view{
+    width: 25% !important;
+    margin-right: 5px;
+}
+
+.activity_view_btn{
+    background-color: #7152F3;
+    width: 100%;
+    text-align: center;
+    padding:10px;
+    margin: 0 10px 10px 0 !important;
+    /* margin-bottom: 10px; */
+
+}
+
+.activity_view_btn h1 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+    margin-bottom: 5px;
+  }
+
+
+  .activity_view_btn p {
+    font-size: 0.8rem;
+    color: white;
+    font-weight: normal;
+  }
+
+
+
+
+  /* activity_info */
+
+  .activity_info{
+    width: 100%;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+    
+  }
+
+  .employe_activity{
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+  }
+
+  .employe_activity h1{
+    font-size: 12px;
+    color: #AAA7A7;
+    border: 1px solid #F4F1FF;
+    padding: 10px ;
+    background-color: #F4F1FF;
+  }
+
+  
+  .employe_activity h1 span{
+    font-size: 15px;
+    font-weight: 500;
+    color: #000000;
+  }
+
+
+  .activity_time{
+    /* border: 1px solid black; */
+    padding: 10px ;
+    gap:5px;
+  }
+  .activity_time p{
+    font-size: 12px;
+    color: red;
+  }

@@ -1,0 +1,152 @@
+
+
+.nav_bar {
+  width: 100%;
+  height: 80px !important;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center; 
+  padding: 0 20px; 
+}
+
+/* .name_date {
+  font-family: 'Lexend', sans-serif;
+} */
+
+.name_date h1{
+    font-size: 15px;
+    font-weight: 500;
+    color: #16151C;
+}
+
+.name_date h1 span{
+    color: #F91515;
+    font-weight: 600;
+}
+
+.name_date p{
+    font-size: 12px;
+    color: #939298;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Search Button */
+
+.search-container {
+    position: relative;
+    width: Fixed (261px)px;
+    height: Hug (50px)px;
+
+
+  }
+  
+  .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #7152F3;
+  }
+  
+  input[type="search"] {
+    padding-left: 30px !important; 
+    padding: 10px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    color: #16151C80;
+    font-size: 16px;
+    outline: none;
+
+  }
+  
+
+
+
+  /* NotificationsButton */
+
+
+  .notification-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px; 
+    background-color: #7152F3;
+    border-radius: 10px;
+  }
+  
+  .icon {
+    color: white;
+    width: 24px; 
+    height: 24px; 
+  }
+  
+
+
+
+
+
+
+/* Dropdown */
+
+  .dropdown-container {
+    display: flex;
+    align-items: center;
+    padding: 2px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    width:184px;
+    height: 50px;
+    border: 1px solid #7152F3
+    
+  }
+  
+  .profile-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-left: 5px;
+  }
+  
+  .employee-info {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .employee-name {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .designation {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .dropdown-icon {
+    margin-left: auto; 
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
