@@ -10,13 +10,9 @@ import EmployeesTable from "./Components/EmployeesTable.jsx";
 import AddCandidate from "./Components/Candidate/AddCandidate.jsx";
 import ClientList from "./Components/ClientsComponent/ClientList.jsx";
 import ClientView from "./Components/ClientsComponent/ClientView.jsx";
-<<<<<<< HEAD
 import Jobs from "./Components/Jobs/Jobs.jsx";
 import AllJobs from "./Components/Jobs/ViewAll/ViewAll.jsx";
 import ViewProfile from "./Components/Jobs/ViewAll/ViewProfile/ViewProfile.jsx";
-=======
-
->>>>>>> 29f500268d11b5449b2d21ad85f702bc812c0888
 import "./App.css";
 
 function App() {
