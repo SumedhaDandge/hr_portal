@@ -43,6 +43,9 @@
   width: 80%;
   position: relative;
   left:20%;  
+  border: 1px solid;
+  height: 100vh;
+  overflow-y: auto;
 }
 
 
