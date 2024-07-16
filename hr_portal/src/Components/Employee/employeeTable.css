@@ -1,0 +1,64 @@
+.empTable-container {
+    max-width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    background-color: var(--white);
+    padding: 5px;
+}
+
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
+.emp-table-head{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: var(--lightPurple) !important;    
+    text-align: center;
+}
+
+.emp-table-data{
+    background-color: var(--white) !important;
+}
+
+.emp-table-head, .emp-table-data {
+    padding: 10px;
+    text-align: center;
+    border: none;
+}
+
+.emp-table-row {
+    border-bottom: 1px solid var(--white);
+    font-size: 16px;
+}
+
+.emp-table-row:hover {
+    background-color: var(--white);
+}
+
+.emp-table-data span{
+    margin: 8px;
+}
+
+.emp-status span{
+    height: 100%;
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.emp-action{
+    display: flex;
+}
+
+.emp-name{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
