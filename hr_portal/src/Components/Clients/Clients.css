@@ -1,0 +1,152 @@
+.client_search_button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.client_search_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #d1c7ff;
+}
+
+.search_icon {
+    color: #a4a3ac80;
+    font-size: 28px !important;
+}
+
+.client_search_filter_button {
+    border: 1px solid #a2a1a833;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+
+/* .add_client_button{
+    background-color: #7152F3;
+    padding:5px 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 10px;
+
+} */
+
+.poc_button button {
+    background-color: #7152f3;
+    color: #ffffff;
+    border-radius: 5px;
+    outline: none !important;
+    border: none !important;
+    padding: 5px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.poc_button button:hover {
+    outline: none !important;
+    border: none !important;
+}
+
+/* Add Client */
+
+.detail_heading {
+    padding: 10px;
+    background-color: #f4f1fd;
+}
+
+.company_form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    padding: 10px;
+}
+
+.company_form div {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 20px;
+}
+
+.company_details,
+.assigned_employee,
+.main_contact_person,
+.upload_agreement {
+    margin-bottom: 20px;
+}
+
+.detail_heading h1 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    text-align: left;
+    color: #000000;
+}
+
+.company_form input,
+.employee_form input,
+.contact_form input {
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #7c7b83;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.form_actions button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.form_actions button:first-of-type {
+    background-color: #FFFFFF;
+    border: 1px solid #9A99A0;
+
+    font-size: 16px;
+    font-weight: 300;
+    outline: none;
+    color: #16151C;
+
+}
+
+.form_actions button:last-of-type {
+    background-color: #7152F3;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 300;
+    outline: none;
+
+}
+
+
+.agreement_form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.agreement_form  h1 {
+
+font-size: 16px;
+font-weight: 700;
+line-height: 24px;
+text-align: left;
+
+   }
+
+
+   .agreement_form  input {
+    padding: 10px;
+   }

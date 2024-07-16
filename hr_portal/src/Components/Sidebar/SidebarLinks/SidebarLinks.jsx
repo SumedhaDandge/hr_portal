@@ -22,7 +22,7 @@ const SidebarLinks = () => {
           <Link to="/">Dashboard</Link>
         </div>
 
-        <div className='link'>
+        <div className='link '>
           <IoIosPeople className='w-6 h-6 text-dark cursor-pointer'/>
           <Link to="/employees">All Employees</Link>
         </div>
