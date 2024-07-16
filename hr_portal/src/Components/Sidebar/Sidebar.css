@@ -1,85 +1,72 @@
-
-
-.sidebar{
-    /* background-color: red; */
-    width: 22%;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    row-gap: 20px;
-    border-right:  1px solid black;
-    background-color:#FFFFFF;
-    
+.sidebar {
+  /* background-color: red; */
+  width: 30%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* row-gap: 10px; */
+  border-right: 1px solid black;
+  background-color: #ffffff;
 }
-
 
 /* SideBar Links */
 
-
-.SideBar_Links{
-    display: flex;
-    flex-direction: column;
-    row-gap: 30px;
+.SideBar_Links {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
 }
 
-.nav_links{
-    width: 100%;
-    /* height: 400px; */
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    row-gap: 30px;
-    padding: 0 30px;
+.nav_links {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  padding: 0 30px;
 }
 
 .active {
-    background-color: #EAE5FE;
+  background-color: #eae5fe;
 }
-.active a{
-    color: #7152F3 !important;
-}
-
-
-.link{
-    width: 100%;
-    display: flex !important;
-    gap: 10px;
-    padding: 10px ;
-    padding-left: 20px;
-    border-radius: 10px;
-
-
+.active a {
+  color: #7152f3 !important;
 }
 
-.link a{
-    font-size: 16px;
-    font-weight: 500;
-    color: rgba(0, 0, 0, 0.707);
-    text-decoration: none;
+.link {
+  width: 100%;
+  display: flex !important;
+  gap: 10px;
+  padding: 10px;
+  padding-left: 20px;
+  border-radius: 10px;
 }
 
+.link a {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.707);
+  text-decoration: none;
+}
 
 /* Logo */
-.logo img{
-    background-color: red;
+.logo img {
+  background-color: red;
 }
-
-
-
-
-
 
 /* Logout */
 
-.logout_btn{
-    background-color: #7152F3 !important;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 5px;
-    color: white !important;
-    border: 1px solid #7152F3 ;
-    border-radius: 10px;
-    padding: 10px 50px;
+.logout_btn {
+  background-color: #7152f3 !important;
+  display: flex;
+  justify-content: center;
+  align-items: center !important;
+  gap: 5px;
+  color: white !important;
+  border: 1px solid #7152f3;
+  border-radius: 10px;
+  padding: 10px 50px;
+  margin: 20px;
+
 }

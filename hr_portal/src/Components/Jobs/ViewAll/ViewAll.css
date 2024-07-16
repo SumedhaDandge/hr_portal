@@ -1,0 +1,390 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+.all_job_container {
+  padding: 20px;
+  background-color: #ffffff;
+  border: 1px solid #f4f1ff;
+}
+
+.alljobs_card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card_contain_details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card_contain_details p {
+  margin: 8px 0;
+  font-family: "Lexend", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  color: #000000 !important;
+}
+
+.card_contain_details h1 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 22px;
+  background-color: #ffffff;
+  padding: 2px 5px;
+}
+
+.Card_job {
+  font-family: "Lexend", sans-serif;
+  background-color: #ffffff;
+  border-radius: 10px, 0px, 0px, 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  row-gap: 8px;
+}
+.Card_job h1 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 35px;
+  text-align: left;
+}
+
+.Card_job h6 {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: left;
+  color: #7152f3;
+}
+
+.Card_job p {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 22px;
+}
+
+.Card_job p strong {
+  font-weight: 600;
+}
+
+.card_contain {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.card_job_btn {
+  background-color: #7152f3;
+  color: #ffffff;
+  padding: 8px 25px;
+  outline: none !important;
+  font-size: 16px;
+  font-weight: 300;
+  border: 1px solid #7152f3;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.card_job_btn:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+/* SearchButton */
+
+.viewprofile_searchbtn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+.viewprofile_search_container {
+  display: flex;
+  align-items: center;
+  border: 1px solid #d1c7ff;
+  padding: 5px 10px;
+}
+
+.search_icon {
+  margin-right: 8px;
+}
+
+.viewprofile_filterbtn {
+  border: 1px solid #a2a1a833 !important;
+  padding: 10px 20px !important;
+  outline: none !important;
+  color: #16151c !important;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.viewprofile_filterbtn:hover {
+  outline: none !important;
+  border: none;
+}
+
+/* job_profile */
+
+.job_profile_container {
+  background-color: #f4f1fd;
+  height: 200px;
+  margin-top: 10px;
+  display: flex;
+  /* justify-content: flex-start; */
+  align-items: center;
+}
+
+.job_profile_info_container {
+  width: 300px;
+  height: 190px;
+  background-color: #ffffff;
+  margin: 10px;
+  align-content: center;
+  padding: 10px 50px;
+}
+
+.job_profile_info_container h1 {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Lexend", sans-serif;
+  color: #000000;
+}
+
+.job_profile_info_container h6 {
+  font-family: "Lexend", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: #7152f3;
+}
+
+.job_profile_info_container p {
+  font-family: "Lexend", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.job_profile_info_container p span {
+  font-weight: 500;
+}
+
+.job_profile_info_details {
+  display: flex !important;
+  /* justify-content: flex-end !important; */
+  align-items: center !important;
+  padding-left: 50px;
+  column-gap: 50px;
+}
+
+.job_profile_info_details div {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.job_profile_info_details div p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 22px;
+  text-align: left;
+}
+
+.job_profile_info_details div p span {
+  background-color: #ffffff;
+  padding: 1px 5px;
+  border: 1px solid #24ae32;
+  color: #24ae32;
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+/* Shortlisted */
+
+.ShortlistedBtn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
+}
+
+.ShortlistedBtn h1 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  font-family: "Lexend", sans-serif;
+}
+
+.ShortlistedBtn button {
+  background: #7152f3;
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #ffffff;
+  outline: none;
+}
+
+/* shortlisted_card */
+
+.shortlisted_candidateinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  row-gap: 10px;
+  padding: 10px;
+}
+
+.shortlisted_candidateinfo h1 {
+  font-family: "Lexend", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35px;
+  text-align: left;
+  color: #000000;
+}
+
+.shortlisted_candidateinfo h6 {
+  font-family: "Lexend", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 35px;
+  text-align: left;
+  color: #7c7b83;
+}
+
+.shortlisted_candidateinfo p {
+  font-family: "Lexend", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  text-align: left;
+}
+
+.shortlisted_candidateinfo div label {
+  font-family: "Lexend", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 22px;
+  text-align: left;
+}
+
+.shortlisted_candidateinfo div textarea {
+  border: 0.5px solid #8a898c;
+  border-radius: 5px;
+  padding: 10px;
+  outline: none;
+}
+
+.shortlisted_button {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  row-gap: 20px;
+  padding: 10px;
+}
+
+.shortlisted_button input[type="checkbox"] {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.shortlisted_button .checkmark {
+  position: relative;
+  height: 15px;
+  width: 16px;
+  background-color: #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  margin-right: 10px;
+  transform: scale(1.5);
+  right: -80px !important;
+}
+
+.shortlisted_button input[type="checkbox"]:checked + .checkmark {
+  background-color: green;
+}
+
+.shortlisted_button .checkmark::after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.shortlisted_button input[type="checkbox"]:checked + .checkmark::after {
+  display: block;
+}
+
+.shortlisted_button .checkmark::after {
+  left: 6px;
+  top: 2px;
+  width: 4px;
+  height: 8px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.shortlisted_button button {
+  padding: 8px 15px;
+  background-color: #7152f3;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  border-radius: 5px;
+  outline: none;
+}
+
+.shortlisted_button button:last-child {
+  background-color: #373639;
+  padding: 10px 15px;
+}
+
+
+.shortlisted_button input[type="date"] {
+  padding: 8px 10px;
+  background-color: #d9d9d9;
+  font-size: 14px;
+  font-weight: 600;
+  color: #373639;
+  outline: none;
+}
+
+.shortlisted_button select option {
+  padding: 10px !important;
+
+}
+
+
+
+.shortlisted_button select {
+  padding: 8px 10px;
+  background-color: #d9d9d9;
+  font-size: 14px;
+  font-weight: 600;
+  color: #373639;
+  outline: none;
+  border: none; /* Optional: Removes the border around the select */
+  appearance: none; /* Optional: Removes default appearance (not supported in all browsers) */
+}
+
+.shortlisted_button select option {
+  background-color: #0000 !important; /* Background color for options */
+  padding: 10px;
+  font-size: 14px; /* Adjust font size if needed */
+  color: #373639; /* Text color */
+}
+
+/* Optional: Styles for when the select dropdown is expanded */
+.shortlisted_button select:focus {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Example of focus style */
+}
+
