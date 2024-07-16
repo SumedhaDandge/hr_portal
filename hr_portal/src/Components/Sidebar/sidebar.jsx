@@ -4,7 +4,7 @@ import './Sidebar.css';
 
 function Sidebar() {
   return (
-      <div className='sidebar p-4' >
+      <div className='sidebar ' >
         <SidebarLinks />
         <LogoutButton />
       </div>
