@@ -3,9 +3,9 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import { FaUser, FaBriefcase, FaFileAlt, FaLock } from "react-icons/fa";
-import CandidatePersonalForm from "./CandidatePersonalForm";
-import CandidateProfessionalForm from "./CandidateProfessionalForm";
-import CandidateDocument from "./CandidateDocument";
+import CandidatePersonalForm from "../CandidatePersonalForm";
+import CandidateProfessionalForm from "../CandidateProfessionalForm";
+
 
 const AddCandidate = () => {
   const [value, setValue] = React.useState("one");
@@ -31,7 +31,7 @@ const AddCandidate = () => {
   //   );
 
   return (
-    <Box sx={{ width: "100%" }}>
+    <Box sx={{ width: "95%", background:"var(--white)", margin:"10px", padding:"10px"}}>
       <Tabs
         value={value}
         onChange={handleChange}
@@ -49,7 +49,7 @@ const AddCandidate = () => {
             padding: "10px 20px",
             color: "black",
             "&.Mui-selected": {
-              color: "red",
+              color: "#7152F3",
             },
             "&:focus": {
               outline: "none",
@@ -58,30 +58,23 @@ const AddCandidate = () => {
           "& .MuiSvgIcon-root": {
             color: "black",
             "&.Mui-selected": {
-              color: "red",
+              color: "#7152F3",
             },
           },
         }}
       >
         <Tab
           value="one"
-          icon={<FaUser color={value === "one" ? "red" : "black"} />}
+          icon={<FaUser color={value === "one" ? "#7152F3" : "black"} />}
           iconPosition="start"
           label="Personal Information"
         />
 
         <Tab
           value="two"
-          icon={<FaBriefcase color={value === "two" ? "red" : "black"} />}
+          icon={<FaBriefcase color={value === "two" ? "#7152F3" : "black"} />}
           iconPosition="start"
           label="Professional Information"
-        />
-
-        <Tab
-          value="three"
-          icon={<FaFileAlt color={value === "three" ? "red" : "black"} />}
-          iconPosition="start"
-          label="Documents"
         />
 
         {/* <Tab
@@ -96,13 +89,11 @@ const AddCandidate = () => {
         sx={{
           padding: "20px",
           marginTop: "20px",
-          border: "1px solid #ddd",
           borderRadius: "8px",
         }}
       >
         {value === "one" && <CandidatePersonalForm />}
-        {value === "two" && <CandidateProfessionalForm />}
-        {value === "three" && <CandidateDocument />}
+        {value === "two" && <CandidateProfessionalForm />}        
         {/* Add more conditional form rendering as needed */}
       </Box>
     </Box>

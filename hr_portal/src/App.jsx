@@ -8,7 +8,10 @@ import Login from "./Components/Login.jsx";
 import AddEmployee from './Components/Employee/AddEmployee/AddEmployee.jsx';
 import ViewEmplyoee from './Components/Employee/ViewEmployee/ViewEmployee.jsx';
 import EmployeesTable from "./Components/Employee/EmployeesTable.jsx";
-import AddCandidate from "./Components/Candidate/AddCandidate.jsx";
+import CandidateList from './Components/Candidate/CandidateList.jsx';
+import AddCandidate from "./Components/Candidate/CandidateList/AddCandidate.jsx";
+import ViewCandidate from "./Components/Candidate/ViewCandidate.jsx";
+import SearchCandidate from "./Components/Candidate/SearchCandidate/SearchCandidate.jsx";
 import ClientList from "./Components/ClientsComponent/ClientList.jsx";
 import ClientView from "./Components/ClientsComponent/ClientView.jsx";
 import Jobs from "./Components/Jobs/Jobs.jsx";
@@ -33,7 +36,11 @@ function App() {
             <Route path="/" element={<Dashboard />} />
             {/* <Route path="/login" element={<Login />} /> */}
             <Route path="/employees" element={<EmployeesTable />} />
-            <Route path="/candidates" element={<AddCandidate />} />
+            <Route path="/view-employee" element={<ViewEmplyoee/>}/>
+            <Route path="/add-new-employee" element={<AddEmployee/>}/>
+            <Route path="/candidates" element={<SearchCandidate />} />
+            <Route path="/add-new-candidate" element={<AddCandidate/>}/>
+            <Route path="/view-candidate" element={<ViewCandidate/>}/>
             <Route path="/clients" element={<Clients />} />
             <Route path="/add_client" element={<AddClient />} />
             <Route path="/add_poc" element={<AddPOC />} />

@@ -5,10 +5,11 @@ import showIcon from "../../assets/view.svg";
 import editIcon from "../../assets/edit.svg";
 import Avatar from '@mui/material/Avatar';
 import ContentHeader from "../contentHeader.jsx";
-
+import { useNavigate } from "react-router-dom";  
 
 
 const EmployeesTable = () => {
+  const navigate = useNavigate();  
   // const [employees, setEmployees] = useState([]);
 
   // useEffect(() => {
@@ -33,7 +34,7 @@ const EmployeesTable = () => {
   };
   
   const addEmployee = ()=>{
-    alert("button clicked");
+    navigate("/add-new-employee");
   }
 
   const filterEmployee = ()=>{
@@ -73,8 +74,9 @@ const EmployeesTable = () => {
               <span style={getStatusStyle("On Leave")}>On Leave</span>
             </td>
             <td className="emp-table-data emp-action">
-              <span>
+              <span> <button onClick={() => navigate("/view-employee") }>
                 <img src={showIcon} alt="" />
+                </button>
               </span>
               <span>
                 <img src={editIcon} alt="" />

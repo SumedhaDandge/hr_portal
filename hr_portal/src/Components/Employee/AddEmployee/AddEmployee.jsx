@@ -31,7 +31,7 @@ const AddCandidate = () => {
   //   );
 
   return (
-    <Box sx={{ width: "100%" }}>
+    <Box sx={{  width: "95%", background:"var(--white)", margin:"10px", padding:"10px" }}>
       <Tabs
         value={value}
         onChange={handleChange}

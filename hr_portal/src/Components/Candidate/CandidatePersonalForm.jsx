@@ -35,7 +35,7 @@ const CandidatePersonalForm = () => {
                 placeholder="Mobile Number"
               />
             </div>
-            <div className="candidate-form-field custom-select">
+            <div className="candidate-form-field">
               {/* <label htmlFor="gender">Gender</label> */}
               <select id="gender" name="gender" placeholder="Gender">
                 <option className="defaultSelect" value="">Select Gender</option>
@@ -66,7 +66,7 @@ const CandidatePersonalForm = () => {
                 placeholder="Date of Birth"
               />
             </div>
-            <div className="candidate-form-field custom-select">
+            <div className="candidate-form-field">
               {/* <label htmlFor="maritalStatus">Marital Status</label> */}
               <select
                 id="maritalStatus"
@@ -113,14 +113,14 @@ const CandidatePersonalForm = () => {
         </div>
         <div className="candidate-form-group grid grid-cols-2 gap-4">
           <div className="grid grid-cols-2 gap-4">
-            <div className="candidate-form-field custom-select">
+            <div className="candidate-form-field">
               {/* <label htmlFor="city">City</label> */}
               <select id="city" name="city">
                 <option className="defaultSelect" value="">Select City</option>
                 {/* Add options here */}
               </select>
             </div>
-            <div className="candidate-form-field custom-select">
+            <div className="candidate-form-field">
               {/* <label htmlFor="state">State</label> */}
               <select id="state" name="state">
                 <option className="defaultSelect" value="">Select State</option>
