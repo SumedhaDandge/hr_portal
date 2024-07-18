@@ -1,8 +1,41 @@
 import CandidateSearchbar from "./CandidateSearchbar";
 import Container from "@mui/material/Container";
+import CandidateCards from "./CandidateCards";
+import './searchCandidate.css';
 import { useNavigate } from "react-router-dom";
 
 const SearchCandidate = () => {
+
+  const candidatesData = [
+    {
+      name: 'Nishant Raut',
+      role: 'Tester',
+      email: 'Nishant@gmail.com',
+      phone: '989898989',
+      location: 'Preferred',
+      experience: 10,
+      relevantExperience: 4,
+      currentCTC: 10,
+      expectedCTC: 5,
+      noticePeriod: 15,
+      remark: 'None',
+    },
+    {
+      name: 'Nishant Raut',
+      role: 'Tester',
+      email: 'Nishant@gmail.com',
+      phone: '989898989',
+      location: 'Preferred',
+      experience: 10,
+      relevantExperience: 4,
+      currentCTC: 10,
+      expectedCTC: 5,
+      noticePeriod: 15,
+      remark: 'None',
+    },
+    // Add more candidates as needed
+  ];
+
   return (
     <>
       <Container
@@ -20,6 +53,12 @@ const SearchCandidate = () => {
         }}
       >
         <CandidateSearchbar />
+        <div className="candidate-list">
+        {candidatesData.map((candidate, index) => (
+          <CandidateCards key={index} candidate={candidate} />
+        ))}
+      </div>
+        {/* <CandidateCards/> */}
       </Container>
     </>
   );
