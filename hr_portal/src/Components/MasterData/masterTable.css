@@ -1,0 +1,73 @@
+.masterTable-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: var(--white);
+  }
+  .master-table-box {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 30%;
+    background-color: #fff;
+    padding: 10px;
+  }
+  
+  .masterTable-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--purple);
+    padding: 10px;
+    border-radius: 10px 10px 0 0;
+  }
+  
+  .masterTable-header h2 {
+    margin: 0;
+    font-size: 16px;
+    color: var(--white);
+  }
+  
+  .masterTable-header-btn{
+    background-color: var(--white);
+    color: var(--purple);
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+  
+  .masterTable-header button:hover {
+    background-color: var(--lightPurple);
+  }
+  
+  .master-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .master-table th, .master-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .master-table th {
+    background-color: var(--lightPurple);
+  }
+  
+  .masterTable-pagination {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .masterTable-pagination span {
+    margin: 0 5px;
+    cursor: pointer;
+    color: var(--darkGrey);
+  }
+  
+  .masterTable-pagination span:hover {
+    text-decoration: underline;
+  }
+  

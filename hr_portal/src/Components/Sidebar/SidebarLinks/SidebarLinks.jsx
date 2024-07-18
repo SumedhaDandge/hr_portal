@@ -51,6 +51,11 @@ const SidebarLinks = () => {
           <FontAwesomeIcon icon={faGear} className='w-6 h-6 text-dark cursor-pointer' />
           <Link to="/settings">Settings</Link>
         </div>
+
+        <div className='link'>
+          <FaUserFriends className='w-6 h-6 text-dark cursor-pointer'/>
+          <Link to="/master-data">Master Data</Link>
+        </div>
       </div>
     </div>
   )

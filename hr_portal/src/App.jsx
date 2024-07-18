@@ -22,6 +22,7 @@ import AddClient from "./Components/Clients/AddClient/AddClient.jsx";
 import AddPOC from "./Components/Clients/AddPOC/AddPOC.jsx";
 import EditClient from "./Components/Clients/EditClient/EditClient.jsx";
 import ViewClient from "./Components/Clients/ViewClient/ViewClient.jsx";
+import MasterTables from "./Components/MasterData/MasterTables.jsx";
 
 import "./App.css";
 
@@ -49,6 +50,7 @@ function App() {
             <Route path="/jobs" element={<Jobs />} />
             <Route path="/all_jobs" element={<AllJobs />} />
             <Route path="/view_profile" element={<ViewProfile />} />
+            <Route path="/master-data" element={<MasterTables/>}/>
           </Routes>
         </div>
       </div>
