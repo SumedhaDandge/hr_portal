@@ -72,7 +72,7 @@ function ClientTable() {
                             <TableCell sx={{ display: "flex" , columnGap:"20px"}}   >
                                 <div className="poc_button" style={{display:"flex",columnGap:"10px"}}>
                                 <button  onClick={() => navigate("/add_poc") }><AddIcon /> POC </button>
-                                <button ><AddIcon /> Job Post </button>
+                                <button  onClick={() => navigate("/add_job")}><AddIcon /> Job Post </button>
                                 </div>
             
                                 <div

@@ -12,6 +12,8 @@ import { FaBriefcase } from "react-icons/fa";
 import { Link } from 'react-router-dom';
 import Logo from '../logo/logo';
 
+import trashIcon from "/Vector.svg";
+
 const SidebarLinks = () => {
   return (
     <div className='SideBar_Links'>

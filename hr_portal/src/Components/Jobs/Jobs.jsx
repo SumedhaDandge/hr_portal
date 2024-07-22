@@ -7,7 +7,7 @@ import "./jobs.css";
 
 function Jobs() {
   return (
-    <Container className="jobs" >
+    <Container sx={{backgroundColor:"#FFFFFF"}}>
       <Serach />
       <ActiveJobs />
       <ClosedJobs />

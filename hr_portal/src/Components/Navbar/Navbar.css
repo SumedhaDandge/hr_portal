@@ -10,6 +10,10 @@
   padding: 0 20px; 
 }
 
+
+
+
+
 /* .name_date {
   font-family: 'Lexend', sans-serif;
 } */
@@ -60,13 +64,13 @@
     left: 10px;
     transform: translateY(-50%);
     cursor: pointer;
-    color: #7152F3;
+    color: #7152F3 !important;
   }
   
   input[type="search"] {
     padding-left: 30px !important; 
     padding: 10px;
-    border: 1px solid #000000;
+    border: 1px solid #AF9CFC;
     border-radius: 10px;
     color: #16151C80;
     font-size: 16px;
