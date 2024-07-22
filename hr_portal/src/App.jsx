@@ -17,9 +17,17 @@ import Clients from "./Components/Clients/Clients.jsx";
 import AddClient from "./Components/Clients/AddClient/AddClient.jsx";
 import AddPOC from "./Components/Clients/AddPOC/AddPOC.jsx";
 import AddJOB from "./Components/Clients/AddJOB/AddJOB.jsx";
+import EditPOC from "./Components/Clients/ViewClient/POC/EditPOC/EditPOC.jsx"
 import EditJOB from "./Components/Clients/ViewClient/JOB/EditJOB/EditJOB.jsx";
 import EditClient from "./Components/Clients/EditClient/EditClient.jsx";
 import ViewClient from "./Components/Clients/ViewClient/ViewClient.jsx";
+
+
+import EmployeesTable from "./Components/Employee/EmployeesTable.jsx";
+import ViewEmplyoee from "./Components/Employee/ViewEmployee/ViewEmployee.jsx";
+import AddEmployee from "./Components/Employee/AddEmployee/AddEmployee.jsx";
+
+import MasterTables from "./Components/MasterData/MasterTables.jsx"
 
 import "./App.css";
 
@@ -36,6 +44,7 @@ function App() {
             <Route path="/employees" element={<EmployeesTable />} />
             <Route path="/view-employee" element={<ViewEmplyoee/>}/>
             <Route path="/add-new-employee" element={<AddEmployee/>}/>
+            
             <Route path="/candidates" element={<SearchCandidate />} />
             <Route path="/add-new-candidate" element={<AddCandidate/>}/>
             <Route path="/view-candidate" element={<ViewCandidate/>}/>
@@ -48,7 +57,12 @@ function App() {
             <Route path="/view_client" element={<ViewClient />} />
             <Route path="/jobs" element={<Jobs />} />
             <Route path="/edit_job" element={<EditJOB />} />
+
+
+
             {/* <Route path="/view_job" element={<ViewJOB />} /> */}
+
+
             <Route path="/all_jobs" element={<AllJobs />} />
             <Route path="/view_profile" element={<ViewProfile />} />
             <Route path="/master-data" element={<MasterTables/>}/>

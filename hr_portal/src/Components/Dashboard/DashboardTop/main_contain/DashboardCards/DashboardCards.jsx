@@ -10,7 +10,7 @@ function DashboardCards() {
           {/* Total Shortlisted */}
           <div className="block flex justify-center items-center gap-x-6">
             <div className="block_img">
-              <img src="/job-search.png" alt="" srcset="" />
+              <img src="/job-search.png" alt="" />
             </div>
             <div className="block_info border-l-4 Shortlisted">
               <h1 className="text-4xl font-bold">10</h1>
@@ -21,7 +21,7 @@ function DashboardCards() {
           {/* Total Hired */}
           <div className="block flex justify-center items-center gap-x-6">
             <div className="block_img">
-              <img src="/hired.png" alt="" srcset="" />
+              <img src="/hired.png" alt="" srcSet="" />
             </div>
             <div className="block_info border-l-4 Hired">
               <h1 className="text-4xl font-bold">5</h1>
@@ -32,7 +32,7 @@ function DashboardCards() {
           {/* Upcoming Interviews */}
           <div className="block flex justify-center items-center gap-x-6">
             <div className="block_img">
-              <img src="/job-interview.png" alt="" srcset="" />
+              <img src="/job-interview.png" alt="" srcSet="" />
             </div>
             <div className="block_info border-l-4 Interviews ">
               <h1 className="text-4xl font-bold">190</h1>
@@ -43,7 +43,7 @@ function DashboardCards() {
           {/* Total Candidates */}
           <div className="block flex justify-center items-center gap-x-6">
             <div className="block_img">
-              <img src="/candidate 1.png" alt="" srcset="" />
+              <img src="/candidate 1.png" alt="" srcSet="" />
             </div>
             <div className="block_info border-l-4  Candidates">
               <h1 className="text-4xl font-bold">23</h1>
@@ -54,7 +54,7 @@ function DashboardCards() {
           {/* Total Clients */}
           <div className="block flex justify-center items-center gap-x-6">
             <div className="block_img">
-              <img src="/public-relation.png" alt="" srcset="" />
+              <img src="/public-relation.png" alt="" srcSet="" />
             </div>
             <div className="block_info border-l-4 Clients ">
               <h1 className="text-4xl font-bold">5</h1>
@@ -65,7 +65,7 @@ function DashboardCards() {
           {/* Active Jobs */}
           <div className="block flex justify-center items-center gap-x-6">
             <div className="block_img">
-              <img src="/suitcase.png" alt="" srcset="" />
+              <img src="/suitcase.png" alt="" srcSet="" />
             </div>
             <div className="block_info border-l-4 Jobs">
               <h1 className="text-4xl font-bold">30</h1>
